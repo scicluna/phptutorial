@@ -6,10 +6,19 @@
 
 <body>
 
-    <form action="process.php" method="post">
-        <input name="name" type="text">
-        <input type="submit">
-    </form>
+    <?php
+    $people = array("Alice", "Bob", "Catherine");
+
+    $numbers = array(5, 3, 7);
+    $sum = 0;
+
+    foreach ($numbers as $number) {
+        $sum += $number;
+    }
+
+    echo $sum
+
+        ?>
 </body>
 
 </html>
